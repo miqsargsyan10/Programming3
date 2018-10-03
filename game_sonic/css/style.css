@@ -1,0 +1,54 @@
+*
+{
+	box-sizing: border-box;
+}
+#imagesonic
+{
+	width: 1000px;
+	height: 650px; 
+}
+#div
+{
+	position: relative;
+	width: 1000px;
+	height: 650px;
+	overflow: hidden;
+}
+#startgame
+{
+	position: absolute;
+	top: 170px;
+	left: 60px;
+	color: #615A5B;
+}
+#options
+{
+    position: absolute;
+	top: 210px;
+	left: 60px;
+	color: #615A5B;	
+}
+#password
+{
+    position: absolute;
+	top: 250px;
+	left: 60px;
+	color: #615A5B;	
+}
+#cheats
+{
+    position: absolute;
+	top: 290px;
+	left: 60px;
+	color: #615A5B;	
+}
+#divstart
+{
+	background-image: url('../photos/sonic_map.jpg');
+	background-size: 5000px 650px;
+}
+#startgame:hover
+{
+    background:orange;
+    border-radius: 15px;
+}
